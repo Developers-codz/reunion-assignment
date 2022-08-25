@@ -1,0 +1,65 @@
+.navbar-wrapper,
+.links-wrapper,
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-wrapper {
+  height: 12vh;
+  border-bottom: 1px solid var(--color-primary-100);
+}
+.heading {
+  padding: 0 4rem;
+}
+.heading > span {
+  font-size: 1.9rem;
+  font-weight: 500;
+  margin-top: 0.2rem;
+  margin-left: 0.5rem;
+}
+.links-wrapper {
+  flex-grow: 1;
+}
+.links-wrapper > li {
+  list-style: none;
+  padding: 0 1rem;
+  font-size: large;
+  cursor: pointer;
+}
+.pills {
+  padding: 0.2rem 0.7rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.checkbox-li {
+  display: none;
+}
+input[type="radio"]:checked + label {
+  background-color: var(--color-primary-100);
+  color: var(--color-primary);
+}
+.btn-wrapper {
+  padding: 0 3rem;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+.signup-btn {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  margin-left: 20px;
+}
+.login-btn {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-light);
+}
+.btn:hover {
+  transform: scale(1.02, 1.02);
+}

@@ -1,0 +1,93 @@
+.card {
+  list-style: none;
+  width: 17rem;
+  height: 20rem;
+  margin: 1rem 1rem;
+  background-color: var(--color-light);
+}
+.image-wrapper{
+    width:inherit;
+    position: relative;
+}
+.card-img {
+  width: inherit;
+  height: 10rem;
+ z-index: 100;
+}
+.price-tag {
+  font-size: 1.3rem;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+.month {
+  font-size: 1rem;
+  color: var(--color-grey-400);
+}
+.estate-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.card-detail {
+  padding: 0.5rem 1rem;
+}
+.card-head,
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+.card-footer {
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+.heart-icon {
+  width: 2rem;
+  height: 2rem;
+ border:2px solid var(--color-primary-100);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.estate-name {
+  padding-bottom: 0.4rem;
+}
+.address ,.home-detail{
+  color: var(--color-grey-400);
+}
+.home-detail,.heart-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-detail > span{
+    margin-left:4px;
+}
+
+/* Popular tag */
+.image-wrapper{
+    position: relative;
+}
+.triangle{
+    width: 0; 
+    height: 0; 
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-right: 11px solid var(--color-primary);
+    transform: rotate(137deg);
+    position: absolute;
+    top:75.5%;
+    left:-7.6px;
+    z-index:1;
+}
+.pill{
+position: absolute;
+background-color: var(--color-primary);
+padding: .5rem 1rem;
+top:60%;
+left:-14px;
+border-radius: 8px 8px 8px 4px;
+color:var(--color-light);
+}
+.pill > span {
+    padding-left: 5px;
+}
