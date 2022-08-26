@@ -52,7 +52,7 @@ export const Card = ({ estate }) => {
               </div>
             )}
           </div>
-          <div className="estate-name">{estate.name}</div>
+          <div className="estate-name">{estate.name}({estate["property-type"]})</div>
           <div className="address">
             {estate.location.address}, {estate.location.city},{" "}
             {estate.location.state}
