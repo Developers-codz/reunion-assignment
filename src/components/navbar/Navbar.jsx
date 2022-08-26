@@ -1,14 +1,17 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { DropDown, Logo } from "../../assets";
 import "./style.css";
 
 export const Navbar = () => {
   const linksArr = [
-    { name: "Rent", isDropDown: false },
-    { name: "Buy", isDropDown: false },
-    { name: "Sell", isDropDown: false },
-    { name: "Manage Property", isDropDown: true },
-    { name: "Resources", isDropDown: true },
+    { name: "Rent", isDropDown: false, link: "/" },
+    { name: "Buy", isDropDown: false, link: "buy" },
+    { name: "Sell", isDropDown: false, link: "sell" },
+    {name:"Fav",isDropDown:false,link:"/favorites"},
+    { name: "Manage Property", isDropDown: true, link: "/" },
+    { name: "Resources", isDropDown: true, link: "/" },
+   
   ];
   return (
     <header className="navbar-wrapper">
@@ -19,14 +22,23 @@ export const Navbar = () => {
       <ul className="links-wrapper">
         {linksArr.map((link, i) => (
           <li key={i}>
-            {link.isDropDown ? 
-            <>
-                {link.name}<DropDown />
-            </>
-             : (<>
-             <input type="radio" name="list" id={link.name} className="checkbox-li" checked />
-             <label className="pills" htmlFor={link.name}>{link.name}</label>
-             </>)}
+            {link.isDropDown ? (
+              <>
+                {link.name}
+                <DropDown />
+              </>
+            ) : (
+              <>
+                <NavLink
+                  to={link.link}
+                  className={({isActive}) =>
+                    isActive ? "pills active" : "pills"
+                  }
+                >
+                  {link.name}
+                </NavLink>
+              </>
+            )}
           </li>
         ))}
       </ul>

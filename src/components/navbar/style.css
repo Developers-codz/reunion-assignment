@@ -31,11 +31,11 @@
   padding: 0.2rem 0.7rem;
   border-radius: 2px;
   cursor: pointer;
+  text-decoration: none;
+  color:black;
 }
-.checkbox-li {
-  display: none;
-}
-input[type="radio"]:checked + label {
+
+.active {
   background-color: var(--color-primary-100);
   color: var(--color-primary);
 }

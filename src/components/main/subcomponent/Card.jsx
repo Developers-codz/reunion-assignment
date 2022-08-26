@@ -1,8 +1,13 @@
 import React from "react";
-import { BathroomIcon, Bed, Dimension, HeartOutline, Sparkle } from "../../../assets";
+import { BathroomIcon, Bed, Dimension, HeartFilled, HeartOutline, Sparkle } from "../../../assets";
 import "./style.css";
+import { useDispatch ,useSelector} from "react-redux";
+import { addToFavHandler,removefromFavHandler } from "../../../features/favorites/favoriteSlice";
 
 export const Card = ({ estate }) => {
+  const dispatch = useDispatch();
+  const {fav} = useSelector(store => store.fav);
+  const isInFav = (id) => fav.find(each => each.id === id)
   return (
     <>
       <li className="card">
@@ -23,9 +28,15 @@ export const Card = ({ estate }) => {
                 ₹ {estate.price}
                 <span className="month">/month</span>
             </div>
-            <div className="heart-icon">
-                <HeartOutline />
+            {isInFav(estate.id) ? <
+              div className="heart-icon filled" onClick={()=>dispatch(removefromFavHandler(estate.id))}>
+               
+              <HeartFilled />
+            </div>:
+            <div className="heart-icon " onClick={()=>dispatch(addToFavHandler(estate))}>
+               <HeartOutline />
             </div>
+            }
             </div>
             <div className="estate-name">{estate.name}</div>
             <div className="address">
