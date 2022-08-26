@@ -1,0 +1,9 @@
+.empty-fav{
+   padding:2rem 0;
+   text-align: center;
+    width:90%;
+    
+}
+.empty-fav > h2{
+    padding: 1rem 0;
+} 

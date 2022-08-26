@@ -1,14 +1,28 @@
-import React from 'react'
-import { useSelector } from 'react-redux'
-import { Card } from '../../components/main/subcomponent/Card'
+import "./style.css";
+import { Card } from "../../components/main/subcomponent/Card";
+import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
+
 export const Favorite = () => {
-    const {fav} = useSelector(store => store.fav)
-    console.log(fav)
+  const { fav } = useSelector((store) => store.fav);
+  const navigate = useNavigate()
   return (
-    <section>
-    <ul className="card-wrapper">
-      {fav.map((es) => <Card estate={es} key={es.id} />)}
-    </ul>
-  </section>
-  )
-}
+    <main className="main">
+      <section className="main-head-wrapper">
+        <div className="main-heading">My Favorites</div>
+      </section>
+      <section>
+        <ul className="card-wrapper">
+          {fav.length < 1 ? (
+            <div className="empty-fav">
+              <h2>Nothing to show :(</h2>
+              <button className="btn signup-btn" onClick={()=>navigate("/")}>Add Now 😇</button>
+            </div>
+          ) : (
+            fav.map((es) => <Card estate={es} key={es.id} />)
+          )}
+        </ul>
+      </section>
+    </main>
+  );
+};

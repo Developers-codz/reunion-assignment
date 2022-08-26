@@ -5,4 +5,5 @@
 }
 .main{
   background-color: var(--color-primary-50);
+  min-height: 88vh;
 }
