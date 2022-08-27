@@ -11,7 +11,11 @@
             "price":"45000",
             "image":"https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&size=640x480&location=19360+Murray+Hill+St%2CDetroit%2CMI%2C48235&signature=KDmlbkncYjq4jvYNDHe7PdHXRf4",
             "property-type":"Flat",
-            "move-in-date":"01-01-2023",
+            "move-in-date":{
+                "year":2022,
+                "month":12,
+                "day":25
+            },
             "deta":{
                 "bed":"5",
                 "bathroom":"3",
@@ -30,7 +34,11 @@
             "price":"20000",
             "image":"https://ap.rdcpix.com/da5f33259897350f0a7f7c18a4c44ea2l-m1953170496s-w1024_h768.jpg",
             "property-type":"Flat",
-            "move-in-date":"02-09-2023",
+            "move-in-date":{
+                "year":2023,
+                "month":1,
+                "day": 12
+            },
             "deta":{
                 "bed":"3",
                 "bathroom":"2",
@@ -49,7 +57,11 @@
             "price":"12000",
             "image":"https://ap.rdcpix.com/5b13106bf133c943ad7c0ee3006520a7l-m2559058367s-w1024_h768.jpg",
             "property-type":"Villa",
-            "move-in-date":"15-06-2023",
+            "move-in-date":{
+                "year":2023,
+                "month":2,
+                "day":25
+            },
             "deta":{
                 "bed":"8",
                 "bathroom":"5",
@@ -68,7 +80,11 @@
             "price":"15000",
             "image":"https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
             "property-type":"Villa",
-            "move-in-date":"04-12-2023",
+            "move-in-date":{
+                "year":2023,
+                "month":6,
+                "day":1
+            },
             "deta":{
                 "bed":"2",
                 "bathroom":"1",
@@ -87,7 +103,11 @@
             "price":"8000",
             "image":"https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
             "property-type":"Villa",
-            "move-in-date":"",
+            "move-in-date":{
+                "year":2023,
+                "month":7,
+                "day":23
+            },    
             "deta":{
                 "bed":"5",
                 "bathroom":"5",
@@ -106,7 +126,11 @@
             "price":"34000",
             "image":"https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
             "property-type":"Banglow",
-            "move-in-date":"07-02-2023",
+            "move-in-date":{
+                "year":2022,
+                "month":11,
+                "day":11
+            },
             "deta":{
                 "bed":"4",
                 "bathroom":"3",
@@ -125,7 +149,11 @@
             "price":"25000",
             "image":"https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
             "property-type":"Villa",
-            "move-in-date":"02-03-2023",
+            "move-in-date":{
+                "year":2022,
+                "month":10,
+                "day":1
+            },
             "deta":{
                 "bed":"7",
                 "bathroom":"6",
@@ -144,7 +172,11 @@
             "price":"40000",
             "image":"https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
             "property-type":"Flat",
-            "move-in-date":"04-05-2023",
+            "move-in-date":{
+                "year":2023,
+                "month":2,
+                "day":1
+            },
             "deta":{
                 "bed":"6",
                 "bathroom":"6",
@@ -163,7 +195,11 @@
             "price":"35000",
             "image":"https://media.istockphoto.com/photos/modern-living-room-interior-3d-render-picture-id1293762741?b=1&k=20&m=1293762741&s=170667a&w=0&h=2RI8SmBN4MrEZuTvdwRzaeB887x-dukFcQBpyQ-qwS4=",
             "property-type":"Villa",
-            "move-in-date":"02-05-2023",
+            "move-in-date":{
+                "year":2022,
+                "month":12,
+                "day":1
+            },
             "deta":{
                 "bed":"4",
                 "bathroom":"2",
@@ -182,7 +218,11 @@
             "price":"40000",
             "image":"https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
             "property-type":"Banglow",
-            "move-in-date":"05-12-2022",
+            "move-in-date":{
+                "year":2023,
+                "month":3,
+                "day":1
+            },
             "deta":{
                 "bed":"7",
                 "bathroom":"6",
@@ -201,7 +241,11 @@
             "price":"15000",
             "image":"https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
             "property-type":"Flat",
-            "move-in-date":"01-02-2023",
+            "move-in-date":{
+                "year":2023,
+                "month":4,
+                "day":1
+            },
             "deta":{
                 "bed":"2",
                 "bathroom":"1",
@@ -220,8 +264,12 @@
             "price":"25000",
             "image":"https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
             "property-type":"Villa",
-            "move-in-date":"",
-            "deta":{
+            "move-in-date":{
+                "year":2023,
+                "month":5,
+                "day":1
+            },
+              "deta":{
                 "bed":"4",
                 "bathroom":"3",
                 "dimension":"7*8"
@@ -239,7 +287,11 @@
             "price":"35000",
             "image":"https://images.unsplash.com/photo-1503594384566-461fe158e797?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
             "property-type":"Banglow",
-            "move-in-date":"01-01-2023",
+            "move-in-date":{
+                "year":2023,
+                "month":7,
+                "day":1
+            },
             "deta":{
                 "bed":"6",
                 "bathroom":"5",
@@ -258,7 +310,11 @@
             "price":"30000",
             "image":"https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
             "property-type":"Banglow",
-            "move-in-date":"01-01-2021",
+            "move-in-date":{
+                "year":2023,
+                "month":8,
+                "day":1
+            },
             "deta":{
                 "bed":"3",
                 "bathroom":"3",
@@ -277,7 +333,11 @@
              "price":"18000",
              "image":"https://images.unsplash.com/photo-1597047084897-51e81819a499?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmxhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
              "property-type":"Flat",
-             "move-in-date":"01-10-2022",
+             "move-in-date":{
+                "year":2022,
+                "month":10,
+                "day":1
+             },
              "deta":{
                  "bed":"3",
                  "bathroom":"2",
@@ -296,7 +356,11 @@
              "price":"15000",
              "image":"https://images.unsplash.com/photo-1531420082871-1c5eb4d20871?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZsYXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
              "property-type":"Banglow",
-             "move-in-date":"01-10-2022",
+             "move-in-date":{
+                "year":2022,
+                "month":8,
+                "day":1
+             },
              "deta":{
                  "bed":"3",
                  "bathroom":"1",
@@ -315,7 +379,11 @@
              "price":"18000",
              "image":"https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG91c2UlMjBleHRlcmlvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
              "property-type":"Flat",
-             "move-in-date":"01-09-2022",
+             "move-in-date":{
+                "year":2022,
+                "month":10,
+                "day":1
+             },
              "deta":{
                  "bed":"3",
                  "bathroom":"2",
