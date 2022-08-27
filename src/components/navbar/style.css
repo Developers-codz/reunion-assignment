@@ -28,7 +28,7 @@
   cursor: pointer;
 }
 .pills {
-  padding: 0.2rem 0.7rem;
+  padding: 0.5rem 0.7rem 0.2rem 0.7rem;
   border-radius: 2px;
   cursor: pointer;
   text-decoration: none;

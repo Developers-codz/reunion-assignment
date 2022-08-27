@@ -27,6 +27,12 @@ const filterSlice = createSlice({
       state.propertyType = action.payload;
       console.log(action.payload)
     },
+    clearFilters:(state) =>{
+      state.location = "";
+      state.dateText= "";
+      state.price = { min: null, max: null };
+      state.propertyType="";
+    }
    
   },
 });
@@ -38,4 +44,5 @@ export const {
   setPropertyType,
   setPrice,
   getFilteredEstate,
+  clearFilters
 } = filterSlice.actions;

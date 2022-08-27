@@ -1,7 +1,7 @@
 .card {
   list-style: none;
   width: 17rem;
-  height: 20rem;
+  min-height: 20rem;
   margin: 1rem 1rem;
   background-color: var(--color-light);
   border-radius: 8px;

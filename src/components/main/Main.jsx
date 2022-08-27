@@ -14,7 +14,8 @@ import {
   setLocation,
   setPrice,
   setPropertyType,
-  setDate
+  setDate,
+  clearFilters,
 } from "../../features/home/filtersSlice";
 import data from "../../data/data.json";
 
@@ -32,7 +33,6 @@ export const Main = () => {
   };
 
   const getFilteredData = () => {
-    console.log(data);
     const searchFilteredData = getSearchFilteredData(data.estate, searchText);
     const locationFilteredData = getLocationFilteredData(
       searchFilteredData,
@@ -92,6 +92,7 @@ export const Main = () => {
           <select
             name="date"
             id="date"
+            className="hidden-select"
             onChange={(e) => dispatch(setDate(e.target.value))}
           >
             <option value="none" selected disabled hidden>
@@ -115,6 +116,7 @@ export const Main = () => {
           <select
             name="price"
             id="price"
+            className="hidden-select"
             onChange={(e) => dispatch(setPrice(e.target.value))}
           >
             <option value="none" selected disabled hidden>
@@ -131,6 +133,7 @@ export const Main = () => {
           <select
             name="propertyType"
             id="propertytype"
+            className="hidden-select"
             onChange={(e) => dispatch(setPropertyType(e.target.value))}
           >
             <option value="none" selected disabled hidden>
@@ -150,9 +153,22 @@ export const Main = () => {
       </section>
       <section>
         <ul className="card-wrapper">
-          {estateData.map((es) => (
-            <Card estate={es} key={es.id} />
-          ))}
+          {estateData.length < 1 ? (
+            <div style={{textAlign:"center",width:"100vw"}}>
+             <div>Nothing Found as per your query :(</div> 
+              <button className="btn login-btn"
+                onClick={() => {
+                  dispatch(clearFilters());
+                  setData(data.estate);
+                  setSearchText("")
+                }}
+              >
+                Clear Filters
+              </button>
+            </div>
+          ) : (
+            estateData.map((es) => <Card estate={es} key={es.id} />)
+          )}
         </ul>
       </section>
     </main>
