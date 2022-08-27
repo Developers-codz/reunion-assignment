@@ -4,7 +4,7 @@
            "id":"001",
             "name":"Palm Harbor",
             "location":{
-                "address":"",
+                "address":"X.Y.Z Road",
                 "state":"Maharastra",
                 "city":"Mumbai"
             },
@@ -46,7 +46,7 @@
                 "state":"Karnataka",
                 "city":"Bangaluru"
             },
-            "price":"25000",
+            "price":"12000",
             "image":"https://ap.rdcpix.com/5b13106bf133c943ad7c0ee3006520a7l-m2559058367s-w1024_h768.jpg",
             "property-type":"Villa",
             "move-in-date":"15-06-2023",
@@ -67,7 +67,7 @@
             },
             "price":"15000",
             "image":"https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-            "property-type":"Flat",
+            "property-type":"Villa",
             "move-in-date":"04-12-2023",
             "deta":{
                 "bed":"2",
@@ -143,7 +143,7 @@
             },
             "price":"40000",
             "image":"https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "property-type":"Bunglow",
+            "property-type":"Flat",
             "move-in-date":"04-05-2023",
             "deta":{
                 "bed":"6",
@@ -181,7 +181,7 @@
             },
             "price":"40000",
             "image":"https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-            "property-type":"",
+            "property-type":"Banglow",
             "move-in-date":"05-12-2022",
             "deta":{
                 "bed":"7",
@@ -194,7 +194,7 @@
            "id":"011",
             "name":"Bridge lands",
             "location":{
-                "address":"",
+                "address":"Main Road",
                 "state":"Maharastra",
                 "city":"Pune"
             },
@@ -219,7 +219,7 @@
             },
             "price":"25000",
             "image":"https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-            "property-type":"",
+            "property-type":"Villa",
             "move-in-date":"",
             "deta":{
                 "bed":"4",
@@ -238,7 +238,7 @@
             },
             "price":"35000",
             "image":"https://images.unsplash.com/photo-1503594384566-461fe158e797?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-            "property-type":"Bunglow",
+            "property-type":"Banglow",
             "move-in-date":"01-01-2023",
             "deta":{
                 "bed":"6",
@@ -251,13 +251,13 @@
            "id":"014",
             "name":"Breeze blows",
             "location":{
-                "address":"Near Red Fort, 1st Street",
-                "state":"Null",
-                "city":"Delhi"
+                "address":"Near Ring road, 1st Street",
+                "state":"Karnataka",
+                "city":"Banguluru"
             },
             "price":"30000",
             "image":"https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGhvbWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-            "property-type":"",
+            "property-type":"Banglow",
             "move-in-date":"01-01-2021",
             "deta":{
                 "bed":"3",
@@ -295,7 +295,7 @@
              },
              "price":"15000",
              "image":"https://images.unsplash.com/photo-1531420082871-1c5eb4d20871?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZsYXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-             "property-type":"Flat",
+             "property-type":"Banglow",
              "move-in-date":"01-10-2022",
              "deta":{
                  "bed":"3",
