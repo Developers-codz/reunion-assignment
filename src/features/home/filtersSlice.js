@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   location: "",
-  when: "",
+  dateText: "",
   price: { min: null, max: null },
   propertyType: "",
 };
@@ -15,7 +15,7 @@ const filterSlice = createSlice({
       state.location = action.payload;
     },
     setDate: (state, action) => {
-      state.when = action.payload;
+      state.dateText = action.payload;
     },
     setPrice: (state, action) => {
       const [min, max] = action.payload.split("-");
@@ -27,17 +27,7 @@ const filterSlice = createSlice({
       state.propertyType = action.payload;
       console.log(action.payload)
     },
-    // getFilteredEstate: (state) => {
-    //   console.log(state.estate);
-    //   console.log(state.location);
-    //   console.log(state.price);
-    //   state.estate = state.estate.filter(
-    //     (item) =>
-    //       item.location.city === state.location &&
-    //       item["property-type"] === state.propertyType &&
-    //        Number(item.price) < Number(state.price.max)
-    //   );
-    // },
+   
   },
 });
 

@@ -13,8 +13,7 @@
             "property-type":"Flat",
             "move-in-date":{
                 "year":2022,
-                "month":12,
-                "day":25
+                "month":12
             },
             "deta":{
                 "bed":"5",
@@ -36,8 +35,7 @@
             "property-type":"Flat",
             "move-in-date":{
                 "year":2023,
-                "month":1,
-                "day": 12
+                "month":1
             },
             "deta":{
                 "bed":"3",
@@ -59,8 +57,8 @@
             "property-type":"Villa",
             "move-in-date":{
                 "year":2023,
-                "month":2,
-                "day":25
+                "month":2
+                
             },
             "deta":{
                 "bed":"8",
@@ -82,9 +80,8 @@
             "property-type":"Villa",
             "move-in-date":{
                 "year":2023,
-                "month":6,
-                "day":1
-            },
+                "month":6
+                            },
             "deta":{
                 "bed":"2",
                 "bathroom":"1",
@@ -105,8 +102,8 @@
             "property-type":"Villa",
             "move-in-date":{
                 "year":2023,
-                "month":7,
-                "day":23
+                "month":7
+                
             },    
             "deta":{
                 "bed":"5",
@@ -128,8 +125,7 @@
             "property-type":"Banglow",
             "move-in-date":{
                 "year":2022,
-                "month":11,
-                "day":11
+                "month":11    
             },
             "deta":{
                 "bed":"4",
@@ -151,8 +147,7 @@
             "property-type":"Villa",
             "move-in-date":{
                 "year":2022,
-                "month":10,
-                "day":1
+                "month":10
             },
             "deta":{
                 "bed":"7",
@@ -174,9 +169,8 @@
             "property-type":"Flat",
             "move-in-date":{
                 "year":2023,
-                "month":2,
-                "day":1
-            },
+                "month":2
+           },
             "deta":{
                 "bed":"6",
                 "bathroom":"6",
@@ -197,9 +191,8 @@
             "property-type":"Villa",
             "move-in-date":{
                 "year":2022,
-                "month":12,
-                "day":1
-            },
+                "month":12
+          },
             "deta":{
                 "bed":"4",
                 "bathroom":"2",
@@ -220,9 +213,8 @@
             "property-type":"Banglow",
             "move-in-date":{
                 "year":2023,
-                "month":3,
-                "day":1
-            },
+                "month":3
+           },
             "deta":{
                 "bed":"7",
                 "bathroom":"6",
@@ -243,9 +235,8 @@
             "property-type":"Flat",
             "move-in-date":{
                 "year":2023,
-                "month":4,
-                "day":1
-            },
+                "month":4
+           },
             "deta":{
                 "bed":"2",
                 "bathroom":"1",
@@ -266,9 +257,8 @@
             "property-type":"Villa",
             "move-in-date":{
                 "year":2023,
-                "month":5,
-                "day":1
-            },
+                "month":5
+           },
               "deta":{
                 "bed":"4",
                 "bathroom":"3",
@@ -289,9 +279,8 @@
             "property-type":"Banglow",
             "move-in-date":{
                 "year":2023,
-                "month":7,
-                "day":1
-            },
+                "month":7
+           },
             "deta":{
                 "bed":"6",
                 "bathroom":"5",
@@ -312,9 +301,8 @@
             "property-type":"Banglow",
             "move-in-date":{
                 "year":2023,
-                "month":8,
-                "day":1
-            },
+                "month":8
+           },
             "deta":{
                 "bed":"3",
                 "bathroom":"3",
@@ -335,8 +323,7 @@
              "property-type":"Flat",
              "move-in-date":{
                 "year":2022,
-                "month":10,
-                "day":1
+                "month":10
              },
              "deta":{
                  "bed":"3",
@@ -358,9 +345,8 @@
              "property-type":"Banglow",
              "move-in-date":{
                 "year":2022,
-                "month":8,
-                "day":1
-             },
+                "month":8
+            },
              "deta":{
                  "bed":"3",
                  "bathroom":"1",
@@ -381,9 +367,8 @@
              "property-type":"Flat",
              "move-in-date":{
                 "year":2022,
-                "month":10,
-                "day":1
-             },
+                "month":10         
+            },
              "deta":{
                  "bed":"3",
                  "bathroom":"2",
